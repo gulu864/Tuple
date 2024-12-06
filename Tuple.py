@@ -1,0 +1,21 @@
+var = tuple()   
+var = (1, 2, 9, 8)
+print(var)
+print("First element:", var[0])
+print("Last element:", var[-1])
+var1 = ("B", "G", "A", "K", [40, 98, 21, 60])
+print(var1)
+print(var1[4][2])
+print("Index value of letter A:", var1.index("A"))
+
+var2 = (1, 2, 2, 3, 3, 3)
+print(var2)
+print(var2.count(3))
+print(var2.count(2))
+print(var2.count(1))
+
+print(var2[1:3])
+print(var + var2)
+
+tuple3 = var + (182,)
+print(tuple3)
